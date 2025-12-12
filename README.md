@@ -31,4 +31,3 @@ Screenshots below show price & volume anomaly detection.
 - Scikit-learn
 - Git & GitHub
 
-## 📂 Project Structure
