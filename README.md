@@ -2,7 +2,6 @@
 
 A real-time trade surveillance dashboard built using **Python**, **Streamlit**, and a **Machine Learning–ready architecture** to detect suspicious trading activity in financial markets.
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,18 @@ A real-time trade surveillance dashboard built using **Python**, **Streamlit**, 
 - Alert log with rule-based alerts
 - Modular architecture (rules, ML, ingestion layers)
 
----
+## 📊 Dashboard Preview
+
+### 🔹 Overall Trade Surveillance Dashboard
+![Dashboard Preview](screenshots/Dashboard_Preview.png.png)
+
+### 🔹 Price & Volume Anomaly Detection
+![Price Volume Chart](screenshots/price_volume_chart.png.png)
+
+### 🔹 Alerts Log & System Alerts
+![Alerts Log](screenshots/alerts_log.png.png)
+
+
 
 ## 🧠 Why this Project Matters
 
@@ -25,7 +35,7 @@ Trade surveillance is a critical function in investment banks and exchanges to d
 
 This project simulates a real-world surveillance system used by financial institutions, combining **rule-based logic** with **ML extensibility**.
 
----
+
 
 ## ⚙️ How It Works
 
@@ -37,7 +47,7 @@ This project simulates a real-world surveillance system used by financial instit
    - ML anomaly scoring (extensible)
 4. Alerts are generated and displayed in real time on the dashboard
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -48,7 +58,7 @@ This project simulates a real-world surveillance system used by financial instit
 - Scikit-learn
 - Git & GitHub
 
----
+
 
 ## ▶️ How to Run Locally
 
