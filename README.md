@@ -1,29 +1,46 @@
-# Trade Surveillance & Anomaly Detection System
+# 📊 Trade Surveillance & Anomaly Detection System
 
-A real-time trade surveillance dashboard built using **Python**, **Streamlit**, and **Machine Learning-ready architecture** to detect suspicious trading activity.
+A real-time trade surveillance dashboard built using **Python**, **Streamlit**, and a **Machine Learning–ready architecture** to detect suspicious trading activity in financial markets.
+
+---
 
 ## 🚀 Features
-- Price anomaly detection (statistical threshold based)
+
+- Price anomaly detection (statistical threshold–based)
 - Volume spike detection
 - ML-based anomaly flagging
 - Interactive Streamlit dashboard
-- Sensitivity slider for anomaly detection
+- Sensitivity slider to tune anomaly detection
 - Alert log with rule-based alerts
-- Modular architecture (rules, ML, ingestion)
+- Modular architecture (rules, ML, ingestion layers)
 
-## 🧠 How it Works
+---
+
+## 🧠 Why this Project Matters
+
+Trade surveillance is a critical function in investment banks and exchanges to detect:
+- Market manipulation
+- Unusual price or volume movements
+- Suspicious trading patterns
+
+This project simulates a real-world surveillance system used by financial institutions, combining **rule-based logic** with **ML extensibility**.
+
+---
+
+## ⚙️ How It Works
+
 1. Trades are generated using synthetic market data
-2. Price and volume patterns are analyzed
+2. Price and volume patterns are continuously analyzed
 3. Anomalies are detected using:
-   - Standard deviation thresholds
-   - Volume spikes
-   - ML anomaly scoring
-4. Alerts are generated and displayed in real-time
+   - Standard deviation–based thresholds
+   - Volume spike detection
+   - ML anomaly scoring (extensible)
+4. Alerts are generated and displayed in real time on the dashboard
 
-## 📊 Dashboard Preview
-Screenshots below show price & volume anomaly detection.
+---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
+
 - Python
 - Streamlit
 - Pandas
@@ -31,4 +48,16 @@ Screenshots below show price & volume anomaly detection.
 - Scikit-learn
 - Git & GitHub
 
-## 📂 Project Structure
+---
+
+## ▶️ How to Run Locally
+
+```bash
+git clone https://github.com/AnimeshSingh76/trade-surveillance-system.git
+cd trade-surveillance-system
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
+
+
+
